@@ -22,6 +22,7 @@ def take_a_number(array, new_customer)
 end
 
 
-def now_serving
-  puts
+def now_serving(array)
+  puts "Currently serving #{array[0]}."
+  array.shift
 end
