@@ -17,7 +17,7 @@ end
 
 def take_a_number(array, new_customer)
   array << new_customer
-  last_customer = array.length - 1
+  last_customer = array.length
   puts "Welcome, #{new_customer}. You are number #{last_customer} in line."
 end
 
