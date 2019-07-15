@@ -1,5 +1,4 @@
-# Write your code here.
-katz_deli = []
+katz_deli = ["Brian", "Chris", "Polly"]
 
 def line(array)
   if array == []
@@ -15,11 +14,5 @@ def line(array)
   end
 end
 
-def take_a_number(array, new_cust)
-  array << new_cust
-end
 
-
-def now_serving
-  puts
-end
+line(katz_deli)
